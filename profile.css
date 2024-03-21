@@ -151,12 +151,11 @@ a {
   gap: 20px;
 }
 .header__wrapper .cols__container .right__col .photos img {
-  max-width: 100%;
-  display: block;
-  height: 100%;
+  width: 100%;
+  height: auto; /* Change height to auto to maintain aspect ratio */
   object-fit: cover;
+  aspect-ratio: 1 / 1; /* Set aspect ratio to 1:1 */
 }
-
 /* Responsiveness */
 
 @media (min-width: 868px) {
