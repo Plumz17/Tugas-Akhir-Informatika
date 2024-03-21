@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Register</h1>
+      <form id="registerForm" action="main.html" method="post" onsubmit="return validasi()">
+        <div class="txt_field">
+          <input type="text" id="email" name="email">  
+          <label>Email</label> 
+        </div>
+        <div class="txt_field"> 
+          <input type="text" id="password" name="password">
+          <label>Password</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" id="confirmPassword" name="confirmPassword">
+          <label>Confirm Password</label>
+        </div>
+        <div class="txt_field">
+          <span style="color: #2691d9">Profile Picture </span> <input type="file" accept="image/*" id="profilePicture" required>
+        </div>
+        <input type="submit" value="Register">
+        <p>&nbsp</p>
+        <a href="register_one.html" class="next-btn">Back</a>
+        <div class="signup_link">
+          Already a member? <a href="login.html">Log In</a>
+        </div>
+        <script src="register_two.js"></script>
+      </form>
+    </div>
+  </body>
+</html>
