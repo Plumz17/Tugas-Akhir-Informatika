@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Register</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="center">
       <h1>Register</h1>
-      <form id="registerForm" action="main.html" method="post" onsubmit="return validasi()">
+      <form id="registerForm" action="main.html" method="get" onsubmit="return validasi()">
         <div class="txt_field">
           <input type="text" id="email" name="email">  
           <label>Email</label> 
@@ -26,9 +26,9 @@
         </div>
         <input type="submit" value="Register">
         <p>&nbsp</p>
-        <a href="register_one.html" class="next-btn">Back</a>
+        <a href="./register_one.html" class="next-btn">Back</a>
         <div class="signup_link">
-          Already a member? <a href="index.html">Log In</a>
+          Already a member? <a href="./index.html">Log In</a>
         </div>
         <script src="./register_two.js"></script>
       </form>
